@@ -9,7 +9,6 @@
 
 import RxSwift
 
-// swiftlint:disable:next identifier_name
 private var __disposeBagAssociatedKey: UInt8 = 0
 
 protocol HasDisposeBag {

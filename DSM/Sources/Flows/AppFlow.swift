@@ -64,7 +64,4 @@ final class AppFlow: Flow {
 
 final class AppStepper: Stepper {
   var initialStep: Step { AppStep.main }
-
-  func readyToEmitSteps() {
-  }
 }

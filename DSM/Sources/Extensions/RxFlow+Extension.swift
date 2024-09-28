@@ -11,7 +11,6 @@ import Foundation
 import RxFlow
 import RxRelay
 
-// swiftlint:disable:next identifier_name
 private var __stepsRelayAssoicatedKey: UInt8 = 0
 
 extension Stepper where Self: AnyObject {

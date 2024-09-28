@@ -10,7 +10,7 @@ import Foundation
 // MARK: - Knowledge
 
 struct Knowledge {
-  static let baseURL = URL(string: "https://kb.synology.com")! // swiftlint:disable:this force_unwrapping
+  static let baseURL = URL(string: "https://kb.synology.com")!
 
   let url: URL
 

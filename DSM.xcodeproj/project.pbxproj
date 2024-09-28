@@ -106,6 +106,7 @@
 		4BE27D372CA6FE9B003BCE4C /* intro.download.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = intro.download.json; sourceTree = "<group>"; };
 		4BE27D432CA7C8EF003BCE4C /* RxCocoa+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxCocoa+Extension.swift"; sourceTree = "<group>"; };
 		4BE27D452CA7C9AF003BCE4C /* IntroViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewTests.swift; sourceTree = "<group>"; };
+		4BE27D472CA7CB57003BCE4C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +194,7 @@
 				4B99B1AA2CA6A8270012DED8 /* Info.plist */,
 				4B99B2132CA6DC350012DED8 /* DSM.entitlements */,
 				4B99B1AC2CA6A8270012DED8 /* LaunchScreen.storyboard */,
+				4BE27D472CA7CB57003BCE4C /* .swiftlint.yml */,
 			);
 			path = DSM;
 			sourceTree = "<group>";
@@ -299,6 +301,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4B09600B2CA7D4A6007945A6 /* PBXTargetDependency */,
 			);
 			name = DSM;
 			packageProductDependencies = (
@@ -403,6 +406,7 @@
 				4B99B1D12CA6C84D0012DED8 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				4B99B1FE2CA6CA4D0012DED8 /* XCRemoteSwiftPackageReference "Defaults" */,
 				4BE27D302CA6FE46003BCE4C /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				4B0960092CA7D38E007945A6 /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4B99B1542CA6A67D0012DED8 /* Products */;
@@ -494,6 +498,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B09600B2CA7D4A6007945A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 4B09600A2CA7D4A6007945A6 /* SwiftLintBuildToolPlugin */;
+		};
 		4B99B16B2CA6A67E0012DED8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4B99B1522CA6A67D0012DED8 /* DSM */;
@@ -807,6 +815,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4B0960092CA7D38E007945A6 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.0;
+			};
+		};
 		4B99B1BB2CA6C7010012DED8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -882,6 +898,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4B09600A2CA7D4A6007945A6 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B0960092CA7D38E007945A6 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
 		4B99B1BC2CA6C7010012DED8 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4B99B1BB2CA6C7010012DED8 /* XCRemoteSwiftPackageReference "SnapKit" */;

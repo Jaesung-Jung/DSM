@@ -28,16 +28,16 @@ final class AppPreferences {
 
 extension AppPreferences {
   struct FileStation: Codable, Equatable, _DefaultsSerializable {
-    var layout: Int = 0
-    var sortBy: String = "name"
-    var sortByAscending: Bool = true
+    var layout = 0
+    var sortBy = "name"
+    var sortByAscending = true
   }
 }
 
 extension AppPreferences {
   struct FilePicker: Codable, Equatable, _DefaultsSerializable {
-    var sortBy: String = "name"
-    var sortByAscending: Bool = true
+    var sortBy = "name"
+    var sortByAscending = true
   }
 }
 

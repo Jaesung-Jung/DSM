@@ -9,7 +9,7 @@ import Foundation
 import KeychainAccess
 import JustFoundation
 
-class AuthKeychain {
+final class AuthKeychain {
   private let _keychain: Keychain?
   private let _cache = Cache<UUID, Item>(name: "auth_info_cache")
 

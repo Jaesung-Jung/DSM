@@ -36,6 +36,7 @@ class SceneViewController<R: Reactor>: UIViewController, ReactorKit.View, HasDis
     }
   }
 
+  @available(*, unavailable)
   required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
@@ -51,17 +52,6 @@ class SceneViewController<R: Reactor>: UIViewController, ReactorKit.View, HasDis
       return
     }
     _clearSelection(animated: animated)
-  }
-
-  func bind(reactor: R) {
-    fatalError("bind(reactor:) has not been implemented")
-  }
-
-  func configureUI() {
-    view.backgroundColor = .background
-    view.addLayoutGuide(sceneLayoutGuide) {
-      _sceneLayoutGuideConstraint = $0.directionalEdges.equalTo(view.safeAreaLayoutGuide).constraint
-    }
   }
 
   override func viewWillLayoutSubviews() {
@@ -105,6 +95,17 @@ class SceneViewController<R: Reactor>: UIViewController, ReactorKit.View, HasDis
     }
 
     _sceneLayoutGuideConstraint?.update(inset: insets)
+  }
+
+  func bind(reactor: R) { // swiftlint:disable:this unavailable_function
+    fatalError("bind(reactor:) has not been implemented")
+  }
+
+  func configureUI() {
+    view.backgroundColor = .background
+    view.addLayoutGuide(sceneLayoutGuide) {
+      _sceneLayoutGuideConstraint = $0.directionalEdges.equalTo(view.safeAreaLayoutGuide).constraint
+    }
   }
 }
 

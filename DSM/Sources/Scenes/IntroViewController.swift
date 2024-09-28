@@ -61,7 +61,7 @@ extension IntroViewController {
   final class LogoView: UIView {
     override init(frame: CGRect) {
       super.init(frame: frame)
-      let logoImageView = UIImageView(image: #imageLiteral(resourceName: "SynologyLogo")).then {
+      let logoImageView = UIImageView(image: .synologyLogo).then {
         $0.setContentHuggingPriority(.required, for: .horizontal)
         $0.setContentCompressionResistancePriority(.required, for: .horizontal)
       }
@@ -97,7 +97,7 @@ extension IntroViewController {
       self.contentView = HostingView {
         ContentView()
       }
-      super.init(frame: .zero)
+      super.init(frame: frame)
       addSubview(contentView)
     }
 
@@ -112,7 +112,7 @@ extension IntroViewController {
     }
 
     struct ContentView: View {
-      @SwiftUI.State var index: Int = 0
+      @SwiftUI.State var index = 0
       let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
 
       var body: some View {
@@ -152,7 +152,7 @@ extension IntroViewController {
             .transition(.scale)
           }
         }
-        .onReceive(timer) { value in
+        .onReceive(timer) { _ in
           index = (index + 1) % 4
         }
         .animation(.easeInOut, value: index)
