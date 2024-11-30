@@ -16,6 +16,20 @@ extension UISceneConfiguration {
   }
 }
 
+// MARK: - UIBarButtonItem (Creation)
+
+extension UIBarButtonItem {
+  static func closeBarButtonItem() -> UIBarButtonItem {
+    return UIBarButtonItem(
+      image: UIImage(systemName: "xmark.circle.fill")?
+        .withConfiguration(.paletteColors([.background, .secondaryLabel])),
+      style: .plain,
+      target: nil,
+      action: nil
+    )
+  }
+}
+
 // MARK: - UIView (SnapKit)
 
 #if canImport(SnapKit)

@@ -1,0 +1,206 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Account" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "계정"
+          }
+        }
+      }
+    },
+    "Connect" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결하기"
+          }
+        }
+      }
+    },
+    "Connect to DSM" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DSM에 연결하기"
+          }
+        }
+      }
+    },
+    "Download" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다운로드"
+          }
+        }
+      }
+    },
+    "Download files easily from anywhere, directly to your DSM." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어디서나 간편하게 파일을 다운로드하여 DSM에 바로 저장하세요."
+          }
+        }
+      }
+    },
+    "Easily monitor your system’s status and performance." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템의 상태와 성능을 쉽게 모니터링하세요."
+          }
+        }
+      }
+    },
+    "Enter your QuickConnect ID or URL to connect." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuickConnect ID 또는 URL을 입력하세요."
+          }
+        }
+      }
+    },
+    "File" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일"
+          }
+        }
+      }
+    },
+    "Forgot your password?" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호를 잊으셨나요?"
+          }
+        }
+      }
+    },
+    "Login" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그인"
+          }
+        }
+      }
+    },
+    "Manage and access your files with ease." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일을 간편하게 관리하고 액세스하세요."
+          }
+        }
+      }
+    },
+    "Manage Device" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "디바이스 관리"
+          }
+        }
+      }
+    },
+    "Password" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호"
+          }
+        }
+      }
+    },
+    "QuickConnect ID or URL" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuickConnect ID 또는 URL"
+          }
+        }
+      }
+    },
+    "Share" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유"
+          }
+        }
+      }
+    },
+    "Share your files easily, anytime and anywhere." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "언제 어디서나 간편하게 간편하게 파일을 공유하세요."
+          }
+        }
+      }
+    },
+    "The QuickConnectID **%@** cannot be found." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuickConnectID **%@**를 찾을 수 없어요."
+          }
+        }
+      }
+    },
+    "Unable to connect to **%@**" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**%@**에 연결할 수 없어요."
+          }
+        }
+      }
+    },
+    "What is QuickConnect ID?" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QuickConnect ID란 무엇인가요?"
+          }
+        }
+      }
+    },
+    "Your account and password are not stored and are only used for authentication." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "계정과 비밀번호 정보는 저장되지 않으며, 사용자 인증을 위한 용도 외에는 사용되지 않아요."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

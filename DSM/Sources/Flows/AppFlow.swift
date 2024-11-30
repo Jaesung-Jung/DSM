@@ -17,7 +17,7 @@ final class AppFlow: Flow {
   let window: UIWindow
 
   let keychain: AuthKeychain
-  // let connectionManager: ConnectionManager
+  let connectionManager: ConnectionManager
   let preferences: AppPreferences
 
   var root: Presentable { window }
@@ -40,7 +40,7 @@ final class AppFlow: Flow {
     }
     self.window = newWindow
     self.keychain = AuthKeychain()
-    // self.connectionManager = ConnectionManager(keychain: keychain)
+    self.connectionManager = ConnectionManager(keychain: keychain)
     self.preferences = AppPreferences()
   }
 
@@ -54,6 +54,19 @@ final class AppFlow: Flow {
       let viewController = IntroViewController(reactor: reactor)
       window.rootViewController = viewController
       return .one(flowContributor: .contribute(with: viewController))
+
+    case .connection:
+      let flow = ConnectionFlow(connectionManager: connectionManager)
+      Flows.use(flow, when: .ready) {
+        self.rootViewController?.present($0, animated: true)
+      }
+      return .one(flowContributor: .contribute(withNextPresentable: flow, withNextStepper: OneStepper(withSingleStep: AppStep.connection)))
+
+    case .knowledgeCenter(let knowledge):
+      let viewController = SFSafariViewController(url: knowledge.url)
+      presentedViewController?.present(viewController, animated: true)
+      return .none
+
     default:
       return .none
     }

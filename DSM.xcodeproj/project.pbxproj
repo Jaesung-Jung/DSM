@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B09600D2CA7DB46007945A6 /* ConnectionFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09600C2CA7DB43007945A6 /* ConnectionFlow.swift */; };
+		4B09600F2CA7DB71007945A6 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09600E2CA7DB6E007945A6 /* ConnectionManager.swift */; };
+		4B0960122CA7DCE3007945A6 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0960112CA7DCDF007945A6 /* ConnectionViewController.swift */; };
+		4B0960142CA7DCE8007945A6 /* ConnectionReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0960132CA7DCE5007945A6 /* ConnectionReactor.swift */; };
+		4B0960162CA7DD1E007945A6 /* DSMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0960152CA7DD1B007945A6 /* DSMError.swift */; };
+		4B0960182CA7DD8D007945A6 /* ConnectionFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0960172CA7DD8C007945A6 /* ConnectionFlowViewController.swift */; };
+		4B09601A2CA80846007945A6 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0960192CA80844007945A6 /* Feedback.swift */; };
+		4B09601C2CA80941007945A6 /* RxSwift+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09601B2CA8093D007945A6 /* RxSwift+Extension.swift */; };
+		4B09601E2CA8285A007945A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09601D2CA82855007945A6 /* LoginViewController.swift */; };
+		4B0960202CA8286B007945A6 /* LoginReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09601F2CA82868007945A6 /* LoginReactor.swift */; };
+		4B0960252CA82EDD007945A6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 4B0960242CA82EDD007945A6 /* Localizable.xcstrings */; };
+		4B09602A2CA83FE1007945A6 /* ImageToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0960292CA83FD1007945A6 /* ImageToggleButton.swift */; };
 		4B99B1AE2CA6A8270012DED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99B1A52CA6A8270012DED8 /* AppDelegate.swift */; };
 		4B99B1AF2CA6A8270012DED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99B1A62CA6A8270012DED8 /* SceneDelegate.swift */; };
 		4B99B1B12CA6A8270012DED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B99B1A92CA6A8270012DED8 /* Assets.xcassets */; };
@@ -70,6 +82,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B09600C2CA7DB43007945A6 /* ConnectionFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionFlow.swift; sourceTree = "<group>"; };
+		4B09600E2CA7DB6E007945A6 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		4B0960112CA7DCDF007945A6 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		4B0960132CA7DCE5007945A6 /* ConnectionReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionReactor.swift; sourceTree = "<group>"; };
+		4B0960152CA7DD1B007945A6 /* DSMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSMError.swift; sourceTree = "<group>"; };
+		4B0960172CA7DD8C007945A6 /* ConnectionFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionFlowViewController.swift; sourceTree = "<group>"; };
+		4B0960192CA80844007945A6 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		4B09601B2CA8093D007945A6 /* RxSwift+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+Extension.swift"; sourceTree = "<group>"; };
+		4B09601D2CA82855007945A6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B09601F2CA82868007945A6 /* LoginReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReactor.swift; sourceTree = "<group>"; };
+		4B0960242CA82EDD007945A6 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		4B0960272CA82F3F007945A6 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4B0960292CA83FD1007945A6 /* ImageToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToggleButton.swift; sourceTree = "<group>"; };
 		4B99B1532CA6A67D0012DED8 /* DSM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B99B1692CA6A67E0012DED8 /* DSMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B99B1732CA6A67E0012DED8 /* DSMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +173,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B0960102CA7DCD9007945A6 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				4B0960172CA7DD8C007945A6 /* ConnectionFlowViewController.swift */,
+				4B0960112CA7DCDF007945A6 /* ConnectionViewController.swift */,
+				4B0960132CA7DCE5007945A6 /* ConnectionReactor.swift */,
+				4B09601D2CA82855007945A6 /* LoginViewController.swift */,
+				4B09601F2CA82868007945A6 /* LoginReactor.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		4B0960282CA83FC3007945A6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4B0960292CA83FD1007945A6 /* ImageToggleButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		4B99B14A2CA6A67D0012DED8 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +223,7 @@
 				4B99B1E42CA6C8AC0012DED8 /* Extensions */,
 				4B99B1F42CA6C9B90012DED8 /* Flows */,
 				4B99B1F72CA6C9EE0012DED8 /* Models */,
+				4B0960282CA83FC3007945A6 /* Components */,
 				4B99B20A2CA6D0A30012DED8 /* Scenes */,
 				4B99B1A52CA6A8270012DED8 /* AppDelegate.swift */,
 				4B99B1A62CA6A8270012DED8 /* SceneDelegate.swift */,
@@ -192,6 +238,7 @@
 				4BE27D332CA6FE71003BCE4C /* Lottie */,
 				4B99B1A92CA6A8270012DED8 /* Assets.xcassets */,
 				4B99B1AA2CA6A8270012DED8 /* Info.plist */,
+				4B0960242CA82EDD007945A6 /* Localizable.xcstrings */,
 				4B99B2132CA6DC350012DED8 /* DSM.entitlements */,
 				4B99B1AC2CA6A8270012DED8 /* LaunchScreen.storyboard */,
 				4BE27D472CA7CB57003BCE4C /* .swiftlint.yml */,
@@ -223,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				4B99B1E52CA6C8B20012DED8 /* UIKit+Extension.swift */,
+				4B09601B2CA8093D007945A6 /* RxSwift+Extension.swift */,
 				4BE27D432CA7C8EF003BCE4C /* RxCocoa+Extension.swift */,
 				4B99B2082CA6CB7B0012DED8 /* RxFlow+Extension.swift */,
 			);
@@ -250,6 +298,7 @@
 			children = (
 				4B99B1FA2CA6CA110012DED8 /* AppStep.swift */,
 				4B99B1F52CA6C9CB0012DED8 /* AppFlow.swift */,
+				4B09600C2CA7DB43007945A6 /* ConnectionFlow.swift */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -258,9 +307,12 @@
 			isa = PBXGroup;
 			children = (
 				4B99B1FC2CA6CA220012DED8 /* Connection.swift */,
+				4B09600E2CA7DB6E007945A6 /* ConnectionManager.swift */,
 				4B99B2012CA6CA640012DED8 /* Knowledge.swift */,
+				4B0960152CA7DD1B007945A6 /* DSMError.swift */,
 				4B99B1F82CA6C9F40012DED8 /* AuthKeychain.swift */,
 				4B99B2062CA6CAD30012DED8 /* AppPreferences.swift */,
+				4B0960192CA80844007945A6 /* Feedback.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,6 +320,7 @@
 		4B99B20A2CA6D0A30012DED8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				4B0960102CA7DCD9007945A6 /* Connection */,
 				4B99B21A2CA6F1060012DED8 /* IntroViewController.swift */,
 				4B99B2182CA6F0DF0012DED8 /* IntroReactor.swift */,
 				4B99B2162CA6EFF70012DED8 /* SceneViewController.swift */,
@@ -393,6 +446,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 4B99B14A2CA6A67D0012DED8;
 			minimizedProjectReferenceProxies = 1;
@@ -430,6 +484,7 @@
 				4BE27D3A2CA6FE9B003BCE4C /* intro.share.json in Resources */,
 				4BE27D3B2CA6FE9B003BCE4C /* intro.chart.json in Resources */,
 				4BE27D3C2CA6FE9B003BCE4C /* intro.download.json in Resources */,
+				4B0960252CA82EDD007945A6 /* Localizable.xcstrings in Resources */,
 				4BE27D3D2CA6FE9B003BCE4C /* intro.file.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,17 +515,28 @@
 				4B99B1F62CA6C9CC0012DED8 /* AppFlow.swift in Sources */,
 				4B99B1E62CA6C8B70012DED8 /* UIKit+Extension.swift in Sources */,
 				4BE27D442CA7C8F4003BCE4C /* RxCocoa+Extension.swift in Sources */,
+				4B09600F2CA7DB71007945A6 /* ConnectionManager.swift in Sources */,
+				4B0960182CA7DD8D007945A6 /* ConnectionFlowViewController.swift in Sources */,
 				4B99B2022CA6CA640012DED8 /* Knowledge.swift in Sources */,
 				4B99B2072CA6CAD40012DED8 /* AppPreferences.swift in Sources */,
 				4B99B1F92CA6C9F50012DED8 /* AuthKeychain.swift in Sources */,
+				4B0960162CA7DD1E007945A6 /* DSMError.swift in Sources */,
+				4B0960142CA7DCE8007945A6 /* ConnectionReactor.swift in Sources */,
 				4B99B1EA2CA6C9380012DED8 /* HasDisposeBag.swift in Sources */,
+				4B09601C2CA80941007945A6 /* RxSwift+Extension.swift in Sources */,
 				4B99B1FB2CA6CA120012DED8 /* AppStep.swift in Sources */,
+				4B09601A2CA80846007945A6 /* Feedback.swift in Sources */,
 				4B99B1AF2CA6A8270012DED8 /* SceneDelegate.swift in Sources */,
+				4B0960122CA7DCE3007945A6 /* ConnectionViewController.swift in Sources */,
 				4B99B1EC2CA6C9710012DED8 /* AssociatedObjectSupporting.swift in Sources */,
 				4B99B2192CA6F0E20012DED8 /* IntroReactor.swift in Sources */,
 				4B99B2152CA6EF3B0012DED8 /* SceneReactor.swift in Sources */,
 				4B99B2092CA6CB7C0012DED8 /* RxFlow+Extension.swift in Sources */,
+				4B09600D2CA7DB46007945A6 /* ConnectionFlow.swift in Sources */,
+				4B09602A2CA83FE1007945A6 /* ImageToggleButton.swift in Sources */,
+				4B0960202CA8286B007945A6 /* LoginReactor.swift in Sources */,
 				4B99B2172CA6EFF80012DED8 /* SceneViewController.swift in Sources */,
+				4B09601E2CA8285A007945A6 /* LoginViewController.swift in Sources */,
 				4B99B21B2CA6F1090012DED8 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +585,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4B99B1AB2CA6A8270012DED8 /* Base */,
+				4B0960272CA82F3F007945A6 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -587,6 +654,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -641,6 +709,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -650,6 +719,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -697,6 +767,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
