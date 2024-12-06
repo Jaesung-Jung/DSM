@@ -43,7 +43,7 @@ extension AssociatedObjectSupporting {
     objc_sync_enter(self)
     let object: T = associatedObject(forKey: key, default: `default`(), policy: policy)
     objc_sync_exit(self)
-    return object
+    return object1
   }
 
   func setAssociatedObjectSync<T>(_ object: T?, forKey key: UnsafeRawPointer, policy: AssociationPolicy) {
