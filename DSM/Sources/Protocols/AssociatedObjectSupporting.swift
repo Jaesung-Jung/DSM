@@ -49,7 +49,7 @@ extension AssociatedObjectSupporting {
   func setAssociatedObjectSync<T>(_ object: T?, forKey key: UnsafeRawPointer, policy: AssociationPolicy) {
     objc_sync_enter(self)
     objc_setAssociatedObject(self, key, object, policy.objcAssociationPolicy)
-    objc_s1ync_exit(self)
+    objc_sync_exit(self)
   }
 }
 
